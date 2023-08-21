@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ifouros1995/nginx:latest,ifouros1995/nginx:alpine
+          tags: ifouros/nginx:latest,ifouros/nginx:alpine
